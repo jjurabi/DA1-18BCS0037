@@ -1,0 +1,130 @@
+h1{
+	font-weight: bold;
+	background-image: url('sign in.jpg');
+}
+h2{
+	color:white;
+}
+body{
+	background-image:url(b1.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+}
+.top{
+	height:400px;
+	width:400px;
+	border:solid white;
+	border-radius:50%;
+	background-image:url(t4.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	animation: change 10s infinite;
+
+}
+.btn{
+	display: inline-block;
+	background:green;
+	font-weight: bold;
+	color:white;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 370px; 
+	border-radius: 20px;
+	text-decoration: none;
+	transition:background 0.5s;
+}
+.btn:hover{
+	background:#563434;
+}
+.text{
+	background-color: tomato;
+	font-family:"Georgia";
+	font-style: italic;
+	color:blue;
+	font-size: larger;
+	margin-left: 300px;
+	margin-right: 300px;
+	border-left-style: dotted;
+	border-right-style: dotted;
+	border-color: darkblue;
+	border-width: 10px;
+}
+.bottom p{
+	height: 50px;
+	padding-top: 15px;
+	font-size: larger;
+    font-weight: bold;
+    color:white;
+	background-color:black;
+	margin-right: 400px;
+	margin-left: 400px;
+	text-decoration:blue wavy;
+	border-left-style: dotted;
+	border-right-style: dotted;
+	border-color: red;
+	border-width: 10px;
+}
+.bottom{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.bottom img{
+	
+	width:150px;
+	height:150px;
+	border:5px solid black;
+}
+.b1,.b2,.b3,.b4{
+	padding: 10px;
+	display: inline-block;
+	}
+.b1:hover
+	{
+		transform: scale(2,2);
+}
+.b2:hover
+	{
+		transform: scale(2,2);
+}
+.b3:hover
+	{
+		transform: scale(2,2);
+}
+.b4 :hover
+	{
+		transform: scale(2,2);
+}
+@keyframes change {
+	0%{
+
+	}
+	25%{
+		background-image:url(t1.jpg);
+	   background-repeat: no-repeat;
+	   background-position: fixed;
+	    background-size: cover;
+
+	}
+	50%{
+		background-image: url(t2.jpg);
+	    background-repeat: no-repeat;
+	    background-position: fixed;
+	    background-size: cover;
+	}
+	75%{
+		background-image:url(t3.jpg);
+	    background-repeat: no-repeat;
+	    background-position: fixed;
+	    background-size: cover;
+	}
+	100%{
+		background-image:url(back.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	}
+}
